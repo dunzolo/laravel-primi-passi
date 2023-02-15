@@ -17,14 +17,10 @@ Route::get('/', function () {
     
     $data = [
         'name' => 'Davide',
-        'surname' => 'Rossi',
-        'email' => 'email@email.com',
-        'age' => 27
+        'surname' => 'Rossi'
     ];
-    
-    $address = 'Via Alberoni, 9';
 
-    return view('home', compact('data', 'address'));
+    return view('home', compact('data'));
 })->name('home');
 
 Route::get('/email', function () {
