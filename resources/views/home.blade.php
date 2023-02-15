@@ -7,5 +7,10 @@
     </head>
     <body>
         <h1>Hello world</h1>
+        <p>Nome: {{$data['name']}}</p>
+        <p>Cognome: {{$data['surname']}}</p>
+        <p>Email: {{$data['email']}}</p>
+        <p>Età: {{$data['age']}}</p>
+        <p>Indirizzo: {{$address}}</p>
     </body>
 </html>
