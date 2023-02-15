@@ -6,6 +6,6 @@
         <title> Laravel Primi Passi</title>
     </head>
     <body>
-        
+        <h1>Hello world</h1>
     </body>
 </html>
