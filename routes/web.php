@@ -25,4 +25,25 @@ Route::get('/', function () {
     $address = 'Via Alberoni, 9';
 
     return view('home', compact('data', 'address'));
-});
+})->name('home');
+
+Route::get('/email', function () {
+    
+    $email = 'email@email.com';
+
+    return view('email', compact('email'));
+})->name('email');
+
+Route::get('/age', function () {
+    
+    $age = 27;
+
+    return view('age', compact('age'));
+})->name('age');
+
+Route::get('/address', function () {
+    
+    $address = 'Via Alberoni, 9';
+
+    return view('address', compact('address'));
+})->name('address');

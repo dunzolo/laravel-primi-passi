@@ -6,14 +6,13 @@
         <title> Laravel Primi Passi</title>
     </head>
     <body>
-        <h1>HOME PAGE</h1>
+        <h1>ETA'</h1>
         <ul>
             <li><a href="{{route('home')}}">Home</a></li>
             <li><a href="{{route('email')}}">Email</a></li>
             <li><a href="{{route('age')}}">Età</a></li>
             <li><a href="{{route('address')}}">Indirizzo</a></li>
         </ul>
-        <p>Nome: {{$data['name']}}</p>
-        <p>Cognome: {{$data['surname']}}</p>
+        <p>Età: {{$age}}</p>
     </body>
 </html>
